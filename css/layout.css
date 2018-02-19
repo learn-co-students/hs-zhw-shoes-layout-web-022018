@@ -1,7 +1,7 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
+  margin: 2% 0;
   padding:0;
   border:0;
   box-sizing: border-box;
@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+[class*="col-"] {
+  margin-left: 2%;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+.col-2 {
+  float: left;
+  width: 66%;
+}
+.col-3 {
+
+}
+.first {
+  margin-left: 0;
+}
+#nav-bar.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
